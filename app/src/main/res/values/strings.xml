@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">My Expenses</string>
+    <string name="paid_and_split_equally">You paid and split equally</string>
+    <string name="guest_paid_and_split_equally">Guest paid and split equally</string>
+    <string name="owed_full_amount">Owed full amount</string>
+    <string name="owe_full_amount">Owe full amount</string>
+    <string name="invalid_input">Invalid input</string>
+    <string name="price">Price</string>
+    <string name="description">Description</string>
+    <string name="delete">Delete</string>
+    <string name="update">Update</string>
+    <string name="edit_expense">Edit expense</string>
+    <string name="add_expense">Add New Expense</string>
+    <string name="my_expenses">My Expenses</string>
+    <string name="expense_details">Expense Details</string>
+    <string name="add">Add</string>
+    <string name="item_title">Spent: %1$s</string>
+    <string name="select_split_option">Select payment option</string>
+    <string name="upload_receipt">Upload receipt</string>
+    <string name="receipt">Receipt</string>
+    <string name="payment_option">Payment option</string>
+    <string name="view_details">View details</string>
+    <string name="update_expense">Update Expense</string>
+</resources>

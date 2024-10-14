@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.MyExpense" parent="android:Theme.Material.Light.NoActionBar" />
+
+    <style name="Theme.MyExpense.SplashScreen" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/deep_blue</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/splash_screen</item>
+        <item name="postSplashScreenTheme">@style/Theme.MyExpense</item>
+    </style>
+</resources>
