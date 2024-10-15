@@ -15,10 +15,10 @@
     <string name="expense_details">Expense Details</string>
     <string name="add">Add</string>
     <string name="item_title">Spent: %1$s</string>
-    <string name="select_split_option">Select payment option</string>
+    <string name="select_split_option">Select split option</string>
     <string name="upload_receipt">Upload receipt</string>
     <string name="receipt">Receipt</string>
-    <string name="payment_option">Payment option</string>
+    <string name="payment_option">Spilt option</string>
     <string name="view_details">View details</string>
     <string name="update_expense">Update Expense</string>
 </resources>

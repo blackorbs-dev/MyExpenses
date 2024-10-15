@@ -105,7 +105,7 @@ fun ExpenseDetailsLayout(expense: Expense){
                 horizontalArrangement = Arrangement.SpaceBetween
             ) {
                 Text(stringResource(R.string.price))
-                Text(expense.price?.formatPrice()?:"0")
+                Text((expense.price?:0).formatPrice())
             }
             HorizontalDivider(
                 modifier = Modifier.padding(
@@ -138,7 +138,7 @@ fun ExpenseDetailsLayout(expense: Expense){
                 model = expense.imageUri,
                 contentDescription = expense.description,
                 contentScale = ContentScale.FillWidth,
-                modifier = Modifier.drawBorderWithTitle(
+                modifier = Modifier.fillMaxWidth().drawBorderWithTitle(
                     R.string.receipt
                 )
             )

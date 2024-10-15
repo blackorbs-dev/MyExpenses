@@ -8,6 +8,8 @@ import androidx.core.splashscreen.SplashScreen.Companion.installSplashScreen
 import blackorbs.dev.myexpense.ui.MainScreen
 import blackorbs.dev.myexpense.ui.theme.MyExpenseTheme
 import kotlinx.serialization.Serializable
+import java.text.DecimalFormat
+import java.text.DecimalFormatSymbols
 import java.text.NumberFormat
 
 class MainActivity : ComponentActivity() {
@@ -26,6 +28,10 @@ class MainActivity : ComponentActivity() {
 fun Long.formatPrice(): String =
     NumberFormat.getCurrencyInstance()
         .apply {
+            (this as DecimalFormat).decimalFormatSymbols =
+                DecimalFormatSymbols().apply {
+                    currencySymbol = "₦"
+                }
             maximumFractionDigits = 0
         }.format(this)
 
